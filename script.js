@@ -44,7 +44,7 @@ const checkinput = () => {
     {
         setError(password,'password cant be blank');
     }
-    else if(passwordValue.Length > 6 ){
+    else if(passwordValue.Length < 8 ){
          setError(password,"must be 8 character");
     }
     else{
